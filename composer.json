@@ -1,6 +1,6 @@
 {
-    "name": "laravel-schema/sandbox",
-    "description": "Laravel Package for Prodaric Framework on sandbox",
+    "name": "laravel-schema/events",
+    "description": "Laravel Schema Package for Events",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -12,14 +12,14 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Prodaric\\Sandbox\\SandboxServiceProvider"
+                "LaravelSchema\\Events\\EventsServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Prodaric\\Sandbox\\": "src/"
+            "LaravelSchema\\Events\\": "src/"
         }
     },
     "minimum-stability": "dev",

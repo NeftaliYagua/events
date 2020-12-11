@@ -1,8 +1,8 @@
 <?php
 
-namespace Prodaric\Sandbox;
+namespace LaravelSchema\Events;
 
-class Sandbox
+class Events
 {
     public function holamundo(String $sName)
     {

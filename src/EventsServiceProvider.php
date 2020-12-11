@@ -1,15 +1,15 @@
 <?php
 
-namespace Prodaric\Sandbox;
+namespace LaravelSchema\Events;
 
 use Illuminate\Support\ServiceProvider;
 
-class SandboxServiceProvider extends ServiceProvider
+class EventsServiceProvider extends ServiceProvider
 {
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/../config/sandbox.php' => config_path('sandbox.php'),
+            __DIR__.'/../config/events.php' => config_path('events.php'),
         ]);
     }
     public function register()
